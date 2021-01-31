@@ -13,7 +13,8 @@
         "--socket=fallback-x11",
         "--socket=wayland",
         "--socket=pulseaudio",
-        "--talk-name=org.freedesktop.secrets"
+        "--talk-name=org.freedesktop.secrets",
+        "--own-name=org.mpris.MediaPlayer2.Spot"
     ],
     "build-options" : {
         "append-path" : "/usr/lib/sdk/rust-stable/bin",
@@ -41,8 +42,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/xou816/spot.git",
-                    "tag" : "0.1.2",
-                    "commit": "f09fac75af185763a06a8ab9b3a9ed2e7229f009"
+                    "tag" : "0.1.3",
+                    "commit": "0c7a18439e9504b9b572a336312c5854cec4fd6a"
                 },
                 "cargo-sources.json"
             ]
