@@ -35,6 +35,21 @@
     ],
     "modules" : [
         {
+            "name" : "libhandy-1",
+            "buildsystem" : "meson",
+            "builddir" : true,
+            "config-opts" : [
+                "-Dexamples=false",
+                "-Dtests=false"
+            ],
+            "sources" : [
+                {
+                    "type" : "git",
+                    "url" : "https://gitlab.gnome.org/GNOME/libhandy.git"
+                }
+            ]
+        },
+        {
             "name" : "spot",
             "builddir" : true,
             "buildsystem" : "meson",
@@ -42,8 +57,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/xou816/spot.git",
-                    "tag" : "0.1.3",
-                    "commit": "0c7a18439e9504b9b572a336312c5854cec4fd6a"
+                    "tag" : "0.1.4",
+                    "commit": "5e32529cc79e7905d77dc90c25411d8c21156248"
                 },
                 "cargo-sources.json"
             ]
