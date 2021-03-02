@@ -53,12 +53,15 @@
             "name" : "spot",
             "builddir" : true,
             "buildsystem" : "meson",
+            "config-opts" : [
+                "-Dfeatures="
+            ],
             "sources" : [
                 {
                     "type" : "git",
                     "url" : "https://github.com/xou816/spot.git",
-                    "tag" : "0.1.8",
-                    "commit": "dc877e102c537a0857f9d1bcd4d9e1f533b96b43"
+                    "tag" : "0.1.9",
+                    "commit": "6e92d957b1afa41f8096eac5320dc59706e66716"
                 },
                 "cargo-sources.json"
             ]
