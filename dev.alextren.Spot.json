@@ -1,13 +1,13 @@
 {
-    "app-id" : "dev.alextren.Spot",
-    "runtime" : "org.gnome.Platform",
-    "runtime-version" : "3.38",
-    "sdk" : "org.gnome.Sdk",
-    "sdk-extensions" : [
+    "app-id": "dev.alextren.Spot",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "3.38",
+    "sdk": "org.gnome.Sdk",
+    "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
     ],
-    "command" : "spot",
-    "finish-args" : [
+    "command": "spot",
+    "finish-args": [
         "--share=network",
         "--share=ipc",
         "--socket=fallback-x11",
@@ -16,13 +16,13 @@
         "--talk-name=org.freedesktop.secrets",
         "--own-name=org.mpris.MediaPlayer2.Spot"
     ],
-    "build-options" : {
-        "append-path" : "/usr/lib/sdk/rust-stable/bin",
-        "env" : {
-            "CARGO_HOME" : "/run/build/spot/cargo"
+    "build-options": {
+        "append-path": "/usr/lib/sdk/rust-stable/bin",
+        "env": {
+            "CARGO_HOME": "/run/build/spot/cargo"
         }
     },
-    "cleanup" : [
+    "cleanup": [
         "/include",
         "/lib/pkgconfig",
         "/man",
@@ -33,35 +33,35 @@
         "*.la",
         "*.a"
     ],
-    "modules" : [
+    "modules": [
         {
-            "name" : "libhandy-1",
-            "buildsystem" : "meson",
-            "builddir" : true,
-            "config-opts" : [
+            "name": "libhandy-1",
+            "buildsystem": "meson",
+            "builddir": true,
+            "config-opts": [
                 "-Dexamples=false",
                 "-Dtests=false"
             ],
-            "sources" : [
+            "sources": [
                 {
-                    "type" : "git",
-                    "url" : "https://gitlab.gnome.org/GNOME/libhandy.git"
+                    "type": "git",
+                    "url": "https://gitlab.gnome.org/GNOME/libhandy.git"
                 }
             ]
         },
         {
-            "name" : "spot",
-            "builddir" : true,
-            "buildsystem" : "meson",
-            "config-opts" : [
+            "name": "spot",
+            "builddir": true,
+            "buildsystem": "meson",
+            "config-opts": [
                 "-Dfeatures="
             ],
-            "sources" : [
+            "sources": [
                 {
-                    "type" : "git",
-                    "url" : "https://github.com/xou816/spot.git",
-                    "tag" : "0.1.9",
-                    "commit": "6e92d957b1afa41f8096eac5320dc59706e66716"
+                    "type": "git",
+                    "url": "https://github.com/xou816/spot.git",
+                    "tag": "0.1.10",
+                    "commit": "1d361b1c81514dc6b5e42846456859dbb1f326e9"
                 },
                 "cargo-sources.json"
             ]
