@@ -2107,13 +2107,6 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/libhandy/libhandy-0.7.1.crate",
-        "sha256": "d776bf5b92993b8006688652cda2683261317dcc82bb4d91d3996bda2f7019e0",
-        "dest": "cargo/vendor",
-        "dest-filename": "libhandy-0.7.1.crate"
-    },
-    {
-        "type": "file",
         "url": "data:%7B%22package%22%3A%20%22d776bf5b92993b8006688652cda2683261317dcc82bb4d91d3996bda2f7019e0%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/libhandy-0.7.1",
         "dest-filename": ".cargo-checksum.json"
