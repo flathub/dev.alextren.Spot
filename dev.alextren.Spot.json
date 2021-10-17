@@ -46,7 +46,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/libadwaita.git",
-                    "branch": "main"
+                    "branch": "1.0.0-alpha.2"
                 }
             ],
             "modules": [
@@ -85,8 +85,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/xou816/spot.git",
-                    "tag": "0.2.0",
-                    "commit": "f93e9640e6e5c2dd330ae047bee298e66f3a9626"
+                    "tag": "0.2.1",
+                    "commit": "cf6f339a3621d95dd30bbc372033f86f2300262e"
                 },
                 "cargo-sources.json"
             ]
