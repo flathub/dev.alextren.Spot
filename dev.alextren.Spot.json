@@ -1,7 +1,7 @@
 {
     "app-id": "dev.alextren.Spot",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "40",
+    "runtime-version": "41",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -20,7 +20,8 @@
     "build-options": {
         "append-path": "/usr/lib/sdk/rust-stable/bin",
         "env": {
-            "CARGO_HOME": "/run/build/spot/cargo"
+            "CARGO_HOME": "/run/build/spot/cargo",
+            "RUST_LOG": "info"
         }
     },
     "cleanup": [
@@ -46,7 +47,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/libadwaita.git",
-                    "branch": "1.0.0-alpha.2"
+                    "branch": "1.0.0.alpha.4"
                 }
             ],
             "modules": [
@@ -85,8 +86,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/xou816/spot.git",
-                    "tag": "0.2.2",
-                    "commit": "b116ff38036c112fbd742b9c203cf6f4d8b0a945"
+                    "tag": "0.3.0",
+                    "commit": "d19a9073547da22b3e9c7d90abfb816c7518993d"
                 },
                 "cargo-sources.json"
             ]
