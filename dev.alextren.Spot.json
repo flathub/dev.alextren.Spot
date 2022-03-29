@@ -47,8 +47,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/xou816/spot.git",
-                    "tag": "0.3.2",
-                    "commit": "5b0e737f3d23b697063aca97a7aa864a1db4a61d"
+                    "tag": "0.3.3",
+                    "commit": "8fe75eaa15c182bb89beb3c474f9210133582599"
                 },
                 "cargo-sources.json"
             ]
