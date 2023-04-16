@@ -15,7 +15,9 @@
         "--socket=pulseaudio",
         "--device=dri",
         "--talk-name=org.freedesktop.secrets",
-        "--own-name=org.mpris.MediaPlayer2.Spot"
+        "--own-name=org.mpris.MediaPlayer2.Spot",
+        "--talk-name=org.gtk.vfs.*",
+        "--filesystem=xdg-run/gvfsd"
     ],
     "build-options": {
         "append-path": "/usr/lib/sdk/rust-stable/bin",
