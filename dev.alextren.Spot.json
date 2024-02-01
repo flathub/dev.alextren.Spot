@@ -58,8 +58,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/Diegovsky/spot.git",
-                    "tag": "0.4.1",
-                    "commit": "c6530a1a602432debafd19369dc68604b30e7958"
+                    "tag": "0.4.1-flatpak"
                 },
                 "cargo-sources.json"
             ]
