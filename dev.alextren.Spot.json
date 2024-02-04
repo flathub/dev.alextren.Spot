@@ -57,8 +57,8 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://github.com/Diegovsky/spot.git",
-                    "tag": "0.4.1-flatpak"
+                    "url": "https://github.com/xou816/spot.git",
+                    "commit": "d3049fbeecff4abb205d03c8c0de79f01a82d2d5"
                 },
                 "cargo-sources.json"
             ]
