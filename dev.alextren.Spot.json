@@ -59,7 +59,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/xou816/spot.git",
-                    "tag": "0.4.1"
+                    "tag": "0.5.0"
                 },
                 "cargo-sources.json"
             ]
